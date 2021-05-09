@@ -1,0 +1,7 @@
+export * from "./$1"
+export * from "./AbstractStrategy"
+export * from "./AbstractStrategyProperties"
+export * from "./BabelStrategy"
+export * from "./Generator"
+export * from "./GeneratorOptions"
+export * from "./isSchemaObject"

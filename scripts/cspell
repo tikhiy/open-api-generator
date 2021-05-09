@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+pnpx cspell lint `git ls-files`

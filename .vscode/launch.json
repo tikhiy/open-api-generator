@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/dist",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node",
+      "args": ["${workspaceFolder}/src/OpenAPI.json"],
+      "outFiles": ["${workspaceFolder}/dist/**/*.js", "!**/node_modules/**"],
+      "pauseForSourceMap": true
+    }
+  ]
+}

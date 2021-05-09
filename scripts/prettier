@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+pnpx prettier `git ls-files "*.json" "*.md" "*.yaml"` \
+  --write

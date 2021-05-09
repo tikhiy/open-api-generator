@@ -1,0 +1,6 @@
+{
+  "{.,**}/*": "cspell lint",
+  "{.,**}/*.{js,ts}": "eslint --cache --fix --quiet --report-unused-disable-directives",
+  "{.,**}/*.{json,md,yaml}": "prettier --write",
+  "{.,**}/package.json": "format-package --write"
+}

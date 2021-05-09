@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+pnpx eslint `git ls-files "*.js" "*.ts"` \
+  --cache                                \
+  --fix                                  \
+  --no-inline-config                     \
+  --quiet                                \
+  --report-unused-disable-directives     \

@@ -1,0 +1,15 @@
+output/*
+OpenAPI.json
+node_modules
+dist
+*.tsbuildinfo
+*.log
+*.eslintcache
+*.code-workspace
+.vscode/*
+.history
+!output/.gitkeep
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json

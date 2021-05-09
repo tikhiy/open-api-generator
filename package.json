@@ -1,0 +1,30 @@
+{
+  "name": "@adventurous-anxiety/open-api-generator",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.14.1",
+    "@babel/types": "^7.14.1",
+    "openapi-types": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/babel__generator": "^7.6.2",
+    "@types/node": "^15.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "cspell": "^5.4.0",
+    "cspell-dict-ru_ru": "^1.4.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "format-package": "^6.1.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.3.0",
+    "typescript": "^4.3.0-dev.20210509"
+  }
+}

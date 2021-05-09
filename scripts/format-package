@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+pnpx format-package `git ls-files "package.json"` \
+  --write
